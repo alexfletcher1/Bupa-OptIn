@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BUPA Well+ Silver Service Opt-In Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      background-color: #f5f5f5;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="date"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #005eb8;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    small {
+      display: block;
+      margin-top: 20px;
+      font-size: 0.85em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="https://formsubmit.co/brainhealth@thepfa.com" method="POST">
+    <h2>Register for Bupa Well+ Silver</h2>
+
+    <p><strong>The PFA Brain Health Department are collecting this information on behalf of BUPA to help enrol you in the <a href="https://www.bupa.co.uk/~/media/Files/MMS/bisl-00001.pdf"_blank">Bupa Well+ Silver health service</a>.</strong></p>
+
+    <label for="fullname">Full Name *</label>
+    <input type="text" id="fullname" name="fullname" required />
+
+    <label for="playername">Player Name *</label>
+    <input type="text" id="fullname" name="fullname" required />
+
+    <label for="email">Email Address *</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="dob">Date of Birth *</label>
+    <input type="date" id="dob" name="dob" required />
+
+
+    <label>
+      <input type="checkbox" name="consent" required />
+      I consent to my data being shared with BUPA for the purpose of accessing their online health services. I have read and agree to the <a href="https://www.bupa.co.uk/privacy-policy" target="_blank">BUPA Privacy Policy</a>.
+    </label>
+
+    <label>
+      <input type="checkbox" name="marketing" />
+      I would like to receive future updates or relevant offers from BUPA.
+    </label>
+
+    <button type="submit">Submit</button>
+
+    <small>
+      Your information will be handled securely and only used for the purposes stated above. You may withdraw consent at any time by contacting us.
+    </small>
+  </form>
+
+</body>
+</html>
